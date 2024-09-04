@@ -7,7 +7,7 @@ export default function Home() {
       <div className="bg-black/60 backdrop-blur-sm ">
         <nav className=" grid grid-cols-2 sm:flex justify-between items-center text-white max-w-screen-xl mx-auto  ">
           <a
-            href={""}
+            href={"./"}
             className=" hover:bg-white/20 min-h-[3rem] px-4 inline-flex items-center justify-self-start"
           >
             K | N
