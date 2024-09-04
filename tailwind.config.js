@@ -5,6 +5,11 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    {
+      pattern: /bg-\[url\(.*\)\]/, // Dodaje do listy dozwolonych klasy z dynamicznymi URL-ami tła
+    },
+  ],
   theme: {
     extend: {
       backgroundImage: {
