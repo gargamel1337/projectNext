@@ -25,7 +25,7 @@ export default function SignupForm() {
 
   return (
     <div className="max-w-sm">
-      <form action={'/api'} method="post" onSubmit={handleSubmit}>
+      <form action={'./api'} method="post" onSubmit={handleSubmit}>
         <fieldset className="w-full inline-flex bg-white p-1.5 rounded-lg disabled:opacity-75 outline-3 focus-within:outline focus-within:outline-blue-600">
           <input
             name="email"

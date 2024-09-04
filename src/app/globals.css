@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-  @apply bg-[url("/green.jpg")] bg-cover bg-center bg-no-repeat bg-fixed;
+  @apply bg-[url("./green.jpg")] bg-cover bg-center bg-no-repeat bg-fixed;
 }
