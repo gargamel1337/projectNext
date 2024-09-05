@@ -3,7 +3,7 @@ import SignupForm from "../components/SignupForm/page";
 export default function Home() {
   const menuItem = ["React", "Git", "MongoDB"];
   return (
-    <div className="h-screen bg-[url('/green.jpg')] bg-cover bg-center bg-no-repeat bg-fixed " >
+    <div className="h-screen bg-green-background bg-cover bg-center bg-no-repeat bg-fixed " >
       <div className=" bg-black/60 backdrop-blur-sm ">
         <nav className=" grid grid-cols-2 sm:flex justify-between items-center text-white max-w-screen-xl mx-auto  ">
           <a
