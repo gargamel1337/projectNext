@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  @apply h-screen bg-green-background bg-cover bg-center bg-no-repeat bg-fixed;
+}
